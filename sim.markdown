@@ -154,3 +154,9 @@ The Fast-Planner test node lives in:
 `src/acp-quadrotor-control/manager/mav_manager_test/mav_manager_test/fastplanner_test.py`
 
 and is invoked via the `mav_manager_test` package entry point `fastplanner_test`.
+
+---
+
+## 5. VizFlyt simulation variant
+
+For the **VizFlyt** sim (Gaussian splat depth rendering with the same stack), use the same three-terminal flow but launch `gazebo_fp_vizflyt.launch.py` in Terminal 2 instead of `gazebo_fp.launch.py`. See **[sim_vizflyt.markdown](sim_vizflyt.markdown)** for full steps.
